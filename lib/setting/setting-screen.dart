@@ -128,7 +128,7 @@ DraggableScrollableSheet _settingPage() {
                       ),
 
                       Padding(
-                        padding: EdgeInsets.only(left: 20, top: 10),
+                        padding: EdgeInsets.only(left: 20, top: 20),
                         child: dynamicText("My Info", fontSize: 20, fontWeight: FontWeight.bold)
                       ),
 
@@ -303,7 +303,7 @@ DraggableScrollableSheet _settingPage() {
                       ),
                       
                       Padding(
-                        padding: EdgeInsets.only(left: 20, top: 20),
+                        padding: EdgeInsets.only(left: 20, top: 30),
                         child: dynamicText("Settings", fontSize: 20, fontWeight: FontWeight.bold)
                       ),
 
