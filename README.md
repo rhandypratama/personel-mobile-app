@@ -1,2 +1,4 @@
-# flutter_core
-Boilerplate for flutter
+# PERSONEL
+- Attendance
+- Dashboard
+- Setting
