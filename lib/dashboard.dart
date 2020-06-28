@@ -1,4 +1,4 @@
-import 'package:personel/utils/widget-model.dart';
+import 'package:core/utils/widget-model.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {

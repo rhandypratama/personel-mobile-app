@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:personel/dashboard.dart';
-import 'package:personel/utils/widget-model.dart';
+import 'package:core/dashboard.dart';
+import 'package:core/utils/widget-model.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
