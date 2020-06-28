@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:personel/dashboard/dashboard.dart';
+import 'package:personel/dashboard/dashboard-screen.dart';
 import 'package:personel/utils/widget-model.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   _SplashScreenState() {
     timer = new Timer(const Duration(seconds: 5), () async {
-      navigationManager(context, Dashboard(), isPushReplaced: true);
+      navigationManager(context, DashboardScreen(), isPushReplaced: true);
     });
   }
 
