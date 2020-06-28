@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:personel/dashboard/dashboard-screen.dart';
+import 'package:personel/personel.dart';
 import 'package:personel/utils/widget-model.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -13,8 +14,8 @@ class _SplashScreenState extends State<SplashScreen> {
   Timer timer;
 
   _SplashScreenState() {
-    timer = new Timer(const Duration(seconds: 5), () async {
-      navigationManager(context, DashboardScreen(), isPushReplaced: true);
+    timer = new Timer(const Duration(seconds: 3), () async {
+      navigationManager(context, Personel(), isPushReplaced: true);
     });
   }
 
@@ -27,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
+              width: MediaQuery.of(context).size.width / 3.5,
               // decoration: BoxDecoration(
               //   borderRadius: BorderRadius.circular(100.0),
               //   border: Border.all(
@@ -40,11 +42,16 @@ class _SplashScreenState extends State<SplashScreen> {
               //   // ),
               // ),
               padding: EdgeInsets.all(0),
-              child: Image.asset('assets/images/logo/logo.png'),
+              child: Image.asset('assets/images/clock.png'),
             ),
             Container(
-              width: MediaQuery.of(context).size.width / 2,
-              child: LinearProgressIndicator()
+              padding: EdgeInsets.all(4),
+              width: MediaQuery.of(context).size.width,
+              child: dynamicText("Personel", 
+                color: Colors.black38, 
+                textAlign: TextAlign.center, 
+                fontSize: 26
+              )
             ),
           ],
         ),
