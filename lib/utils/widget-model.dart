@@ -152,3 +152,18 @@ Widget specUnit(String title, String value, Color fontColor) {
     ],
   );
 }
+
+//DEFAULT BUTTON
+defaultButton(BuildContext context, String label, {Function onPress}) {
+  return RaisedButton(
+    shape: RoundedRectangleBorder(
+      borderRadius: new BorderRadius.circular(8.0),
+    ),
+    child: Padding(
+      padding: const EdgeInsets.all(0.0),
+      child: dynamicText(label, color: Colors.white, fontSize: 16.0),
+    ),
+    color: Colors.redAccent,
+    onPressed: onPress,
+  );
+}

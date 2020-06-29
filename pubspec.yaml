@@ -14,6 +14,36 @@ dependencies:
   flutter_svg:
   flutter_launcher_icons: "^0.7.3"
   font_awesome_flutter:
+  shimmer:
+  connectivity:
+  provider:
+  rxdart:
+  flutter_money_formatter:
+  http:
+  # test:
+  # image_picker:
+  # path:
+  
+  # sentry:
+  # path_provider:
+  # image_gallery_saver:
+  # dio:
+  # photo_view:
+  # file_picker:
+  
+  # flutter_local_notifications:
+  # flutter_slidable:
+  # pull_to_refresh:
+  # firebase_analytics:
+  # showcaseview:
+  # firebase_crashlytics:
+  # socket_io_client:
+  # flutter_simple_dependency_injection:
+  # percent_indicator:
+  # webview_flutter: ^0.3.22+1
+  # youtube_player_flutter:
+  # simple_animations: 
+  # supercharged:
   # flutter_open_whatsapp:
   # webview_flutter:
 
